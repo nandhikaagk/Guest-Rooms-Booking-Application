@@ -1,19 +1,24 @@
 **Project Name:**
+
          Guest Room Booking Application
+         
 **Project Description:**
+
             Provide a platform where customers can browse, view details, check availability, and book rooms from different house owners.
             User Types: House owners, customers.
+            
             House Owners:
-         1)Registration:Register with an email address.
-         2)Room Management:Create rooms,	Edit room details,Delete rooms.
+                1)Registration:Register with an email address.
+                2)Room Management:Create rooms,Edit room details,Delete rooms.
             Customers:
+            
                 1) Registration: Register with an email address
                 2) Browsing:Browse all available rooms,View details of each room, including photos.
                 3)Availability:See an availability calendar for room
                 4)Booking:Choose dates and book rooms.
-                
     
 **Frontend Installable package:**
+
 ├── @testing-library/jest-dom@5.17.0
 ├── @testing-library/react@13.4.0
 ├── @testing-library/user-event@13.5.0
@@ -31,8 +36,8 @@
 ├── sweetalert2@11.12.2
 └── web-vitals@2.1.4
 
-
 **Backend Installable Package:**
+
 guestroombookings@1.0.0 E:\GuestRoomBookings
 ├── cors@2.8.5
 ├── express@4.19.2
@@ -166,6 +171,39 @@ Schema for Guest Room Booking Application
  
 ]
 ```
+**Project Setup**
+Clone the Repository:
+
+    git clone <your-repo-url>
+    cd <your-repo-name>
+    
+**Backend Setup:**
+      Navigate to the backend directory and install dependencies:
+
+             cd backend
+
+             npm install
+
+      Create a .env file in the backend directory with the following content:
+
+                    .env
+
+                     PORT=5000
+
+                     MONGO_URI=mongodb://localhost:27017/Guest-Room
+
+                     JWT_SECRET=your_jwt_secret_key
+
+                     (run node server.js)
+
+   **Frontend Setup:**
+                  cd ../user
+
+                  npm install
+
+                  Run npm start
+
+
 
 
 
