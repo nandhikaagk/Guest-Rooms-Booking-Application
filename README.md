@@ -1,4 +1,17 @@
-
+**Project Name:**
+         Guest Room Booking Application
+**Project Description:**
+            Provide a platform where customers can browse, view details, check availability, and book rooms from different house owners.
+            User Types: House owners, customers.
+            House Owners:
+         1)Registration:Register with an email address.
+         2)Room Management:Create rooms,	Edit room details,Delete rooms.
+            Customers:
+                1) Registration: Register with an email address
+                2) Browsing:Browse all available rooms,View details of each room, including photos.
+                3)Availability:See an availability calendar for room
+                4)Booking:Choose dates and book rooms.
+    
 **Frontend Installable package:**
 ├── @testing-library/jest-dom@5.17.0
 ├── @testing-library/react@13.4.0
@@ -24,12 +37,7 @@ guestroombookings@1.0.0 E:\GuestRoomBookings
 ├── multer@1.4.5-lts.1
 ├── nodemon@3.1.4
 └── router@1.3.8
-**Project Name:**
-         Guest Room Booking Application
-**Project Description:**
-            Provide a platform where customers can browse, view details, check availability, and book rooms from different house owners.
-            User Types: House owners, customers.
-    
+
 ** Database Schema and Sample Data**
 ##Database Schema
 Schema for Guest Room Booking Application
