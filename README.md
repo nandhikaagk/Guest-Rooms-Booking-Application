@@ -11,6 +11,7 @@
                 2) Browsing:Browse all available rooms,View details of each room, including photos.
                 3)Availability:See an availability calendar for room
                 4)Booking:Choose dates and book rooms.
+                
     
 **Frontend Installable package:**
 ├── @testing-library/jest-dom@5.17.0
@@ -29,6 +30,8 @@
 ├── react@18.3.1
 ├── sweetalert2@11.12.2
 └── web-vitals@2.1.4
+
+
 **Backend Installable Package:**
 guestroombookings@1.0.0 E:\GuestRoomBookings
 ├── cors@2.8.5
